@@ -1,8 +1,21 @@
+import foodExplorePhpCover from "../assets/images/Food Explore (PHP)/daftar warung php cover.png"
+import foodExplorePhpLogin from "../assets/images/Food Explore (PHP)/login php.png"
+import foodExplorePhpMenu from "../assets/images/Food Explore (PHP)/menu warung php.png"
+import foodExplorePhpProfil from "../assets/images/Food Explore (PHP)/profil php.png"
+
+
 export const projects = [
   {
+    id: "food-explore-php",
     title: "Food Explore (PHP)",
+    cover: foodExplorePhpCover,
+    images: [
+      foodExplorePhpLogin,
+      foodExplorePhpMenu,
+      foodExplorePhpProfil,
+    ],
     description:
-      "Website pencarian makanan dengan layanan pengantaran khusus mahasiswa asrama Telkom University. Menyediakan fitur pencarian makanan, sistem rating, dan ulasan pengguna. Dikembangkan secara berkelompok dengan peran sebagai ketua tim serta fokus pada pengembangan backend.",
+      "Website pencarian makanan dengan layanan pengantaran khusus mahasiswa asrama Telkom University. Menyediakan fitur pencarian makanan, sistem rating, dan informasi warung.",
     tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
   },
   {
