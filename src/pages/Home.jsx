@@ -1,7 +1,8 @@
-import Navbar from "../components/Navbar"
-import Hero from "../sections/Hero"
-import About from "../sections/About"
-import Projects from "../sections/Projects"
+import Navbar from "../components/Navbar";
+import Hero from "../sections/Hero";
+import About from "../sections/About";
+import Projects from "../sections/Projects";
+import Contact from "../sections/Contact";
 
 const Home = () => {
   return (
@@ -10,8 +11,9 @@ const Home = () => {
       <Hero />
       <About />
       <Projects />
+      <Contact />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
