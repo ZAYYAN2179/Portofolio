@@ -1,21 +1,32 @@
-import foodExplorePhpCover from "../assets/images/Food Explore (PHP)/daftar warung php cover.png"
-import foodExplorePhpLogin from "../assets/images/Food Explore (PHP)/login php.png"
-import foodExplorePhpMenu from "../assets/images/Food Explore (PHP)/menu warung php.png"
-import foodExplorePhpProfil from "../assets/images/Food Explore (PHP)/profil php.png"
+// Food Explore (PHP)
+import foodExplorePhpDaftarUlasan from "../assets/images/Food Explore (PHP)/daftarulasan.png";
+import foodExplorePhpFavorit from "../assets/images/Food Explore (PHP)/favorit.png";
+import foodExplorePhpCover from "../assets/images/Food Explore (PHP)/landingpage.png";
+import foodExplorePhpLogin from "../assets/images/Food Explore (PHP)/login.png";
+import foodExplorePhpMenu from "../assets/images/Food Explore (PHP)/menu.png";
+import foodExplorePhpPenilaian from "../assets/images/Food Explore (PHP)/penilaian.png";
+import foodExplorePhpProfil from "../assets/images/Food Explore (PHP)/profil.png";
+import foodExplorePhpRegister from "../assets/images/Food Explore (PHP)/register.png";
+import foodExplorePhpWarung from "../assets/images/Food Explore (PHP)/warung.png";
 
+// Futsal Booker
+import futsalBookerCover from "../assets/images/Futsal Booker/landingpage.png";
 
 export const projects = [
   {
     id: "food-explore-php",
     title: "Food Explore (PHP)",
     cover: foodExplorePhpCover,
-    images: [
-      foodExplorePhpLogin,
-      foodExplorePhpMenu,
-      foodExplorePhpProfil,
+    images: [foodExplorePhpRegister, foodExplorePhpLogin, foodExplorePhpCover, foodExplorePhpWarung, foodExplorePhpFavorit, foodExplorePhpMenu, foodExplorePhpPenilaian, foodExplorePhpDaftarUlasan, foodExplorePhpProfil],
+    description: "Website pencarian makanan dengan layanan pengantaran khusus mahasiswa asrama Telkom University. Menyediakan fitur pencarian makanan, sistem rating, dan informasi warung.",
+    role: "Ketua Tim & Backend Developer",
+    responsibilities: [
+      "Merancang dan mengimplementasikan logika backend menggunakan PHP dan MySQL",
+      "Membangun fitur pencarian makanan dan pengelolaan data warung",
+      "Mengembangkan sistem penilaian dan ulasan pengguna",
+      "Mengelola struktur database dan relasi antar tabel",
+      "Mengkoordinasikan pembagian tugas dan integrasi antar anggota tim",
     ],
-    description:
-      "Website pencarian makanan dengan layanan pengantaran khusus mahasiswa asrama Telkom University. Menyediakan fitur pencarian makanan, sistem rating, dan informasi warung.",
     tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
   },
   {
@@ -25,10 +36,29 @@ export const projects = [
     tech: ["Laravel", "PHP", "MySQL", "REST API", "Map API"],
   },
   {
+    id: "futsal-booker",
     title: "Futsal Booker",
+    cover: futsalBookerCover,
+    images: [futsalBookerCover, foodExplorePhpLogin, foodExplorePhpCover, foodExplorePhpWarung, foodExplorePhpFavorit, foodExplorePhpMenu, foodExplorePhpPenilaian, foodExplorePhpDaftarUlasan, foodExplorePhpProfil],
     description:
       "Aplikasi desktop berbasis Java untuk sistem booking lapangan futsal. Menyediakan fitur booking, pembayaran DP, invoice, serta pengelolaan jadwal dan konfirmasi booking oleh admin. Berperan dalam implementasi fungsionalitas utama aplikasi.",
+    role: "Ketua Tim & Backend Developer",
+    responsibilities: [
+      "Mengimplementasikan fungsionalitas utama aplikasi desktop berbasis Java",
+      "Membangun fitur registrasi dan autentikasi pengguna",
+      "Mengembangkan sistem booking lapangan futsal dan pemilihan jadwal",
+      "Mengimplementasikan perhitungan dan pembayaran DP serta pembuatan invoice",
+      "Membangun fitur manajemen jadwal dan lapangan untuk admin",
+      "Mengembangkan fitur konfirmasi dan reschedule booking",
+      "Menerapkan konsep Object-Oriented Programming (OOP) pada struktur aplikasi",
+    ],
     tech: ["Java", "OOP", "Desktop Application"],
+  },
+  {
+    title: "Food Explore (Laravel)",
+    description:
+      "Pengembangan lanjutan Food Explore berbasis Laravel dengan fitur role admin, pemilik warung, dan pengguna. Mendukung integrasi Map API, pengelolaan menu mandiri, serta pemesanan langsung yang terhubung ke WhatsApp. Berperan sebagai ketua tim dan mengembangkan fitur autentikasi serta role & permission.",
+    tech: ["Laravel", "PHP", "MySQL", "REST API", "Map API"],
   },
   {
     title: "TVBC App",
