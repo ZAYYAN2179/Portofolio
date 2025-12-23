@@ -11,13 +11,22 @@ import foodExplorePhpWarung from "../assets/images/Food Explore (PHP)/warung.png
 
 // Futsal Booker
 import futsalBookerCover from "../assets/images/Futsal Booker/landingpage.png";
+import futsalBooker4 from "../assets/images/Futsal Booker/buktibayar.png";
+import futsalBooker1 from "../assets/images/Futsal Booker/daftarlapangan.png";
+import futsalBooker3 from "../assets/images/Futsal Booker/konfirmasi.png";
+import futsalBooker5 from "../assets/images/Futsal Booker/lapanganuser.png";
+import futsalBooker6 from "../assets/images/Futsal Booker/lapanganuserr.png";
+import futsalBookerLogin from "../assets/images/Futsal Booker/login.png";
+import futsalBookerRegister from "../assets/images/Futsal Booker/register.png";
+import futsalBooker7 from "../assets/images/Futsal Booker/statusbooking.png";
+import futsalBooker2 from "../assets/images/Futsal Booker/tambahlapangan.png";
 
 export const projects = [
   {
     id: "food-explore-php",
     title: "Food Explore (PHP)",
     cover: foodExplorePhpCover,
-    images: [foodExplorePhpRegister, foodExplorePhpLogin, foodExplorePhpCover, foodExplorePhpWarung, foodExplorePhpFavorit, foodExplorePhpMenu, foodExplorePhpPenilaian, foodExplorePhpDaftarUlasan, foodExplorePhpProfil],
+    images: [foodExplorePhpCover, foodExplorePhpLogin, foodExplorePhpCover, foodExplorePhpWarung, foodExplorePhpFavorit, foodExplorePhpMenu, foodExplorePhpPenilaian, foodExplorePhpDaftarUlasan, foodExplorePhpProfil],
     description: "Website pencarian makanan dengan layanan pengantaran khusus mahasiswa asrama Telkom University. Menyediakan fitur pencarian makanan, sistem rating, dan informasi warung.",
     role: "Ketua Tim & Backend Developer",
     responsibilities: [
@@ -39,7 +48,7 @@ export const projects = [
     id: "futsal-booker",
     title: "Futsal Booker",
     cover: futsalBookerCover,
-    images: [futsalBookerCover, foodExplorePhpLogin, foodExplorePhpCover, foodExplorePhpWarung, foodExplorePhpFavorit, foodExplorePhpMenu, foodExplorePhpPenilaian, foodExplorePhpDaftarUlasan, foodExplorePhpProfil],
+    images: [futsalBookerCover, futsalBookerLogin, futsalBookerRegister, futsalBooker1, futsalBooker2, futsalBooker3, futsalBooker4, futsalBooker5, futsalBooker6, futsalBooker7],
     description:
       "Aplikasi desktop berbasis Java untuk sistem booking lapangan futsal. Menyediakan fitur booking, pembayaran DP, invoice, serta pengelolaan jadwal dan konfirmasi booking oleh admin. Berperan dalam implementasi fungsionalitas utama aplikasi.",
     role: "Ketua Tim & Backend Developer",
@@ -53,12 +62,6 @@ export const projects = [
       "Menerapkan konsep Object-Oriented Programming (OOP) pada struktur aplikasi",
     ],
     tech: ["Java", "OOP", "Desktop Application"],
-  },
-  {
-    title: "Food Explore (Laravel)",
-    description:
-      "Pengembangan lanjutan Food Explore berbasis Laravel dengan fitur role admin, pemilik warung, dan pengguna. Mendukung integrasi Map API, pengelolaan menu mandiri, serta pemesanan langsung yang terhubung ke WhatsApp. Berperan sebagai ketua tim dan mengembangkan fitur autentikasi serta role & permission.",
-    tech: ["Laravel", "PHP", "MySQL", "REST API", "Map API"],
   },
   {
     title: "TVBC App",
