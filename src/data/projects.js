@@ -51,7 +51,7 @@ import tvbc7 from "../assets/images/TVBC/Formabsenanggota.png";
 import tvbc8 from "../assets/images/TVBC/Absenanggota.png";
 import tvbc9 from "../assets/images/TVBC/Keuangananggota.png";
 import tvbc10 from "../assets/images/TVBC/Formkeuangananggota.png";
-import tvbc11 from "../assets/images/TVBC/Notifanggota.png";
+import tvbc11 from "../assets/images/TVBC/notifanggota.png";
 import tvbc12 from "../assets/images/TVBC/Profilanggota.png";
 import tvbc13 from "../assets/images/TVBC/Berandaadmin.png";
 import tvbc14 from "../assets/images/TVBC/Absenadmin.png";
