@@ -59,11 +59,23 @@ const ProjectDetail = () => {
         {/* Link Github */}
         {project.githubLink && (
           <div className="mb-12">
-            <h2 className="text-xl font-semibold mb-2">Github Link Project</h2>
+            <h2 className="text-xl font-semibold mb-3">GitHub Project</h2>
 
-            <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 underline break-all">
-              {project.githubLink}
-            </a>
+            {Array.isArray(project.githubLink) ? (
+              <ul className="space-y-2">
+                {project.githubLink.map((link, i) => (
+                  <li key={i}>
+                    <a href={link.url} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 underline break-all">
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 underline break-all">
+                {project.githubLink}
+              </a>
+            )}
           </div>
         )}
 
