@@ -21,6 +21,10 @@ import futsalBookerRegister from "../assets/images/Futsal Booker/register.png";
 import futsalBooker7 from "../assets/images/Futsal Booker/statusbooking.png";
 import futsalBooker2 from "../assets/images/Futsal Booker/tambahlapangan.png";
 
+// Air Care
+import AirCareCover from "../assets/images/AirCare/aircare.jpeg";
+
+
 export const projects = [
   {
     id: "food-explore-php",
@@ -96,5 +100,24 @@ export const projects = [
     title: "AirCare",
     description: "Aplikasi pemantauan kualitas udara dan kondisi ruangan secara real-time menggunakan sensor lingkungan, mikrokontroler, dan aplikasi Android.",
     tech: ["ESP32", "MQ-135", "DHT11", "PIR Sensor", "Kotlin", "Android", "Firebase Realtime Database", "REST API"],
+  },
+  {
+    id: "air-care",
+    title: "AirCare",
+    cover: AirCareCover,
+    images: [futsalBookerCover, futsalBookerLogin, futsalBookerRegister, futsalBooker1, futsalBooker2, futsalBooker3, futsalBooker4, futsalBooker5, futsalBooker6, futsalBooker7],
+    description:
+      "Aplikasi pemantauan kualitas udara dan kondisi ruangan secara real-time menggunakan sensor lingkungan, mikrokontroler, dan aplikasi Android.",
+    role: "Ketua Tim & Backend Developer",
+    responsibilities: [
+      "Mengimplementasikan fungsionalitas utama aplikasi desktop berbasis Java",
+      "Membangun fitur registrasi dan autentikasi pengguna",
+      "Mengembangkan sistem booking lapangan futsal dan pemilihan jadwal",
+      "Mengimplementasikan perhitungan dan pembayaran DP serta pembuatan invoice",
+      "Membangun fitur manajemen jadwal dan lapangan untuk admin",
+      "Mengembangkan fitur konfirmasi dan reschedule booking",
+      "Menerapkan konsep Object-Oriented Programming (OOP) pada struktur aplikasi",
+    ],
+    tech: ["Java", "OOP", "Desktop Application"],
   },
 ];

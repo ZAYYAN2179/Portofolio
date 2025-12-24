@@ -5,12 +5,23 @@ const ProjectCard = ({ project }) => {
     <Link to={`/projects/${project.id}`}>
       <div className="bg-gray-900 rounded-xl overflow-hidden hover:scale-105 transition cursor-pointer h-full">
         
-        {/* Cover Image */}
-        <img
-          src={project.cover}
-          alt={project.title}
-          className="w-full h-56 object-cover"
-        />
+        {/* Cover Image with Blur Background */}
+        <div className="relative w-full aspect-[16/9] overflow-hidden bg-gray-800">
+          
+          {/* Blur background */}
+          <img
+            src={project.cover}
+            alt={project.title}
+            className="absolute inset-0 w-full h-full object-cover blur-xl scale-110 opacity-40"
+          />
+
+          {/* Main image */}
+          <img
+            src={project.cover}
+            alt={project.title}
+            className="relative z-10 max-h-full max-w-full object-contain mx-auto"
+          />
+        </div>
 
         {/* Content */}
         <div className="p-6 flex flex-col h-full">
