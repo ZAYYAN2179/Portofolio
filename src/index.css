@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 @keyframes fadeUp {
@@ -22,21 +23,11 @@ html {
   opacity: 0;
 }
 
-.fade-delay-1 {
-  animation-delay: 0.1s;
-}
+.fade-delay-1 { animation-delay: 0.1s; }
+.fade-delay-2 { animation-delay: 0.25s; }
+.fade-delay-3 { animation-delay: 0.4s; }
+.fade-delay-4 { animation-delay: 0.55s; }
 
-.fade-delay-2 {
-  animation-delay: 0.25s;
-}
-
-.fade-delay-3 {
-  animation-delay: 0.4s;
-}
-
-.fade-delay-4 {
-  animation-delay: 0.55s;
-}
 
 
 
