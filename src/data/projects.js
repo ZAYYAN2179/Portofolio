@@ -8,6 +8,23 @@ import foodExplorePhpPenilaian from "../assets/images/Food Explore (PHP)/penilai
 import foodExplorePhpProfil from "../assets/images/Food Explore (PHP)/profil.png";
 import foodExplorePhpRegister from "../assets/images/Food Explore (PHP)/register.png";
 import foodExplorePhpWarung from "../assets/images/Food Explore (PHP)/warung.png";
+import foodExplorePhpDatabase from "../assets/images/Food Explore (PHP)/database.png";
+
+// Food Explore (Laravel)
+import foodExploreCover from "../assets/images/Food Explore (Laravel)/landing.png";
+import foodExploreBerandaUser from "../assets/images/Food Explore (Laravel)/berandauser.png";
+import foodExploreLogin from "../assets/images/Food Explore (Laravel)/login.png";
+import foodExploreRegister from "../assets/images/Food Explore (Laravel)/register.png";
+import foodExploreWarungUser from "../assets/images/Food Explore (Laravel)/warunguser.png";
+import foodExploreMenuUser from "../assets/images/Food Explore (Laravel)/menuuser.png";
+import foodExplorePenilaianUser from "../assets/images/Food Explore (Laravel)/penilaianuser.png";
+import foodExploreUlasanUser from "../assets/images/Food Explore (Laravel)/ulasanuser.png";
+import foodExploreTambahWarung from "../assets/images/Food Explore (Laravel)/tambahwarung.png";
+import foodExploreMenuWarung from "../assets/images/Food Explore (Laravel)/tambahmenu.png";
+import foodExploreTambahMenu from "../assets/images/Food Explore (Laravel)/menuwarung.png";
+import foodExploreManageAkun from "../assets/images/Food Explore (Laravel)/manageakun.png";
+import foodExploreManageRole from "../assets/images/Food Explore (Laravel)/managerole.png";
+import foodExploreProfil from "../assets/images/Food Explore (Laravel)/profil.png";
 
 // Futsal Booker
 import futsalBookerCover from "../assets/images/Futsal Booker/landingpage.png";
@@ -24,13 +41,23 @@ import futsalBooker2 from "../assets/images/Futsal Booker/tambahlapangan.png";
 // Air Care
 import AirCareCover from "../assets/images/AirCare/aircare.jpeg";
 
-
 export const projects = [
   {
     id: "food-explore-php",
     title: "Food Explore (PHP)",
     cover: foodExplorePhpCover,
-    images: [foodExplorePhpCover, foodExplorePhpLogin, foodExplorePhpCover, foodExplorePhpWarung, foodExplorePhpFavorit, foodExplorePhpMenu, foodExplorePhpPenilaian, foodExplorePhpDaftarUlasan, foodExplorePhpProfil],
+    images: [
+      foodExplorePhpCover,
+      foodExplorePhpLogin,
+      foodExplorePhpRegister,
+      foodExplorePhpWarung,
+      foodExplorePhpFavorit,
+      foodExplorePhpMenu,
+      foodExplorePhpPenilaian,
+      foodExplorePhpDaftarUlasan,
+      foodExplorePhpProfil,
+      foodExplorePhpDatabase,
+    ],
     description: "Website pencarian makanan dengan layanan pengantaran khusus mahasiswa asrama Telkom University. Menyediakan fitur pencarian makanan, sistem rating, dan informasi warung.",
     role: "Ketua Tim & Backend Developer",
     responsibilities: [
@@ -40,12 +67,40 @@ export const projects = [
       "Mengelola struktur database dan relasi antar tabel",
       "Mengkoordinasikan pembagian tugas dan integrasi antar anggota tim",
     ],
+    githubLink: "https://github.com/ZAYYAN2179/FoodExplore-PHP",
     tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
   },
   {
+    id: "food-explore-laravel",
     title: "Food Explore (Laravel)",
+    cover: foodExploreCover,
+    images: [
+      foodExploreCover,
+      foodExploreBerandaUser,
+      foodExploreLogin,
+      foodExploreRegister,
+      foodExploreWarungUser,
+      foodExploreMenuUser,
+      foodExplorePenilaianUser,
+      foodExploreUlasanUser,
+      foodExploreTambahWarung,
+      foodExploreMenuWarung,
+      foodExploreTambahMenu,
+      foodExploreManageAkun,
+      foodExploreManageRole,
+      foodExploreProfil,
+    ],
     description:
       "Pengembangan lanjutan Food Explore berbasis Laravel dengan fitur role admin, pemilik warung, dan pengguna. Mendukung integrasi Map API, pengelolaan menu mandiri, serta pemesanan langsung yang terhubung ke WhatsApp. Berperan sebagai ketua tim dan mengembangkan fitur autentikasi serta role & permission.",
+    role: "Ketua Tim & Backend Developer",
+    responsibilities: [
+      "Merancang dan mengimplementasikan logika backend menggunakan PHP dan MySQL",
+      "Membangun fitur pencarian makanan dan pengelolaan data warung",
+      "Mengembangkan sistem penilaian dan ulasan pengguna",
+      "Mengelola struktur database dan relasi antar tabel",
+      "Mengkoordinasikan pembagian tugas dan integrasi antar anggota tim",
+    ],
+    githubLink: "",
     tech: ["Laravel", "PHP", "MySQL", "REST API", "Map API"],
   },
   {
@@ -56,6 +111,7 @@ export const projects = [
     description:
       "Aplikasi desktop berbasis Java untuk sistem booking lapangan futsal. Menyediakan fitur booking, pembayaran DP, invoice, serta pengelolaan jadwal dan konfirmasi booking oleh admin. Berperan dalam implementasi fungsionalitas utama aplikasi.",
     role: "Ketua Tim & Backend Developer",
+    githubLink: "https://github.com/ZAYYAN2179/Futsal-Booker",
     responsibilities: [
       "Mengimplementasikan fungsionalitas utama aplikasi desktop berbasis Java",
       "Membangun fitur registrasi dan autentikasi pengguna",
@@ -106,8 +162,7 @@ export const projects = [
     title: "AirCare",
     cover: AirCareCover,
     images: [futsalBookerCover, futsalBookerLogin, futsalBookerRegister, futsalBooker1, futsalBooker2, futsalBooker3, futsalBooker4, futsalBooker5, futsalBooker6, futsalBooker7],
-    description:
-      "Aplikasi pemantauan kualitas udara dan kondisi ruangan secara real-time menggunakan sensor lingkungan, mikrokontroler, dan aplikasi Android.",
+    description: "Aplikasi pemantauan kualitas udara dan kondisi ruangan secara real-time menggunakan sensor lingkungan, mikrokontroler, dan aplikasi Android.",
     role: "Ketua Tim & Backend Developer",
     responsibilities: [
       "Mengimplementasikan fungsionalitas utama aplikasi desktop berbasis Java",

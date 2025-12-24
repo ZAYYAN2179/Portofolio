@@ -12,7 +12,7 @@ const ProjectDetail = () => {
   useEffect(() => {
     window.scrollTo({
       top: 0,
-      behavior: "instant", // atau "smooth"
+      behavior: "instant",
     });
   }, []);
 
@@ -45,7 +45,7 @@ const ProjectDetail = () => {
 
         {/* Responsibilities */}
         {project.responsibilities && (
-          <div className="mb-12">
+          <div className="mb-8">
             <h2 className="text-xl font-semibold mb-4">Kontribusi Saya</h2>
 
             <ul className="list-disc list-inside space-y-2 text-gray-400">
@@ -53,6 +53,17 @@ const ProjectDetail = () => {
                 <li key={i}>{item}</li>
               ))}
             </ul>
+          </div>
+        )}
+
+        {/* Link Github */}
+        {project.githubLink && (
+          <div className="mb-12">
+            <h2 className="text-xl font-semibold mb-2">Github Link Project</h2>
+
+            <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 underline break-all">
+              {project.githubLink}
+            </a>
           </div>
         )}
 
