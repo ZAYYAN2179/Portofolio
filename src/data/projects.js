@@ -42,23 +42,23 @@ import futsalBookerDatabase from "../assets/images/Futsal Booker/database.png";
 
 // TVBC App
 import tvbcCover from "../assets/images/TVBC/TVBC.png";
-import tvbc2 from "../assets/images/TVBC/Landing page.png";
+import tvbc2 from "../assets/images/TVBC/Landingpage.png";
 import tvbc3 from "../assets/images/TVBC/login.png";
 import tvbc4 from "../assets/images/TVBC/register.png";
-import tvbc5 from "../assets/images/TVBC/frgt passwtd.png";
-import tvbc6 from "../assets/images/TVBC/Beranda anggota.png";
-import tvbc7 from "../assets/images/TVBC/Form absen anggota.png";
-import tvbc8 from "../assets/images/TVBC/Absen anggota.png";
-import tvbc9 from "../assets/images/TVBC/Keuangan anggota.png";
-import tvbc10 from "../assets/images/TVBC/Form keuangan anggota.png";
-import tvbc11 from "../assets/images/TVBC/Notif anggota.png";
-import tvbc12 from "../assets/images/TVBC/Profil anggota.png";
-import tvbc13 from "../assets/images/TVBC/Beranda admin.png";
-import tvbc14 from "../assets/images/TVBC/Absen admin.png";
-import tvbc15 from "../assets/images/TVBC/Keuangan admin.png";
-import tvbc16 from "../assets/images/TVBC/Form pengeluaran.png";
-import tvbc17 from "../assets/images/TVBC/Notifikasi admin.png";
-import tvbc18 from "../assets/images/TVBC/Notifikasi admin2.png";
+import tvbc5 from "../assets/images/TVBC/frgtpasswtd.png";
+import tvbc6 from "../assets/images/TVBC/Berandaanggota.png";
+import tvbc7 from "../assets/images/TVBC/Formabsenanggota.png";
+import tvbc8 from "../assets/images/TVBC/Absenanggota.png";
+import tvbc9 from "../assets/images/TVBC/Keuangananggota.png";
+import tvbc10 from "../assets/images/TVBC/Formkeuangananggota.png";
+import tvbc11 from "../assets/images/TVBC/Notifanggota.png";
+import tvbc12 from "../assets/images/TVBC/Profilanggota.png";
+import tvbc13 from "../assets/images/TVBC/Berandaadmin.png";
+import tvbc14 from "../assets/images/TVBC/Absenadmin.png";
+import tvbc15 from "../assets/images/TVBC/Keuanganadmin.png";
+import tvbc16 from "../assets/images/TVBC/Formpengeluaran.png";
+import tvbc17 from "../assets/images/TVBC/Notifikasiadmin.png";
+import tvbc18 from "../assets/images/TVBC/Notifikasiadmin2.png";
 import tvbc19 from "../assets/images/TVBC/prof.png";
 
 // Deep Blue Cleaner
