@@ -1,25 +1,55 @@
+import profileImg from "../assets/images/profile.jpg";
+
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex flex-col items-center justify-center text-center px-4">
-      <h1 className="text-4xl md:text-5xl font-bold">
-        Hi, I'm <span className="text-blue-500">Zayyan</span>
-      </h1>
+    <section
+      id="home"
+      className="min-h-screen pt-20 flex items-center justify-center px-6 bg-gray-950"
+    >
+      <div className="max-w-5xl w-full grid md:grid-cols-[1fr_1.4fr] gap-8 items-center">
 
-      <p className="mt-4 text-gray-400 max-w-xl">
-        Mahasiswa D3 Rekayasa Perangkat Lunak Aplikasi Telkom University
-      </p>
+        {/* Photo */}
+        <div className="flex justify-center fade-up fade-delay-1">
+          <img
+            src={profileImg}
+            alt="Muh Zayyan Al Thaaf Nur"
+            className="w-56 h-56 rounded-full object-cover border-4 border-blue-500"
+          />
+        </div>
 
-      <div className="mt-6 flex gap-4">
-        <button className="px-6 py-2 bg-blue-500 rounded-lg hover:bg-blue-600">
-          Lihat Project
-        </button>
+        {/* Text */}
+        <div>
+          <h1 className="text-4xl md:text-5xl font-bold fade-up fade-delay-2">
+            Hi, I'm <span className="text-blue-500">Zayyan</span>
+          </h1>
 
-        <button className="px-6 py-2 border border-gray-600 rounded-lg hover:border-blue-500">
-          Hubungi Saya
-        </button>
+          <p className="mt-4 text-gray-400 leading-relaxed text-justify max-w-lg fade-up fade-delay-3">
+            Mahasiswa D3 Rekayasa Perangkat Lunak Aplikasi Telkom University
+            dengan minat pada <span className="text-white">Backend Development</span>,
+            berpengalaman dalam pengembangan logika aplikasi,
+            integrasi database, dan API.
+          </p>
+
+          <div className="mt-6 flex gap-4 fade-up fade-delay-4">
+            <a
+              href="#projects"
+              className="px-6 py-2 bg-blue-500 rounded-lg hover:bg-blue-600 transition"
+            >
+              Lihat Project
+            </a>
+
+            <a
+              href="#contact"
+              className="px-6 py-2 border border-gray-600 rounded-lg hover:border-blue-500 transition"
+            >
+              Hubungi Saya
+            </a>
+          </div>
+        </div>
+
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

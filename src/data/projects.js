@@ -97,6 +97,7 @@ export const projects = [
   {
     id: "food-explore-php",
     title: "Food Explore (PHP)",
+    type: "Web Application",
     images: [
       foodExplorePhpCover,
       foodExplorePhpLogin,
@@ -124,6 +125,7 @@ export const projects = [
   {
     id: "food-explore-laravel",
     title: "Food Explore (Laravel)",
+    type: "Web Application",
     images: [
       foodExploreCover,
       foodExploreBerandaUser,
@@ -157,6 +159,7 @@ export const projects = [
   {
     id: "futsal-booker",
     title: "Futsal Booker",
+    type: "Desktop Application",
     images: [futsalBookerCover, futsalBookerLogin, futsalBookerRegister, futsalBooker1, futsalBooker2, futsalBooker3, futsalBooker4, futsalBooker5, futsalBooker6, futsalBooker7, futsalBookerDatabase],
     description:
       "Aplikasi desktop berbasis Java untuk sistem booking lapangan futsal. Menyediakan fitur booking, pembayaran DP, invoice, serta pengelolaan jadwal dan konfirmasi booking oleh admin. Berperan dalam implementasi fungsionalitas utama aplikasi.",
@@ -175,6 +178,7 @@ export const projects = [
   {
     id: "tvbc-app",
     title: "TVBC App",
+    type: "Mobile Application",
     images: [tvbcCover, tvbc2, tvbc3, tvbc4, tvbc5, tvbc6, tvbc7, tvbc8, tvbc9, tvbc10, tvbc11, tvbc12, tvbc13, tvbc14, tvbc15, tvbc16, tvbc17, tvbc18, tvbc19],
     description:
       "Aplikasi Android untuk mendukung pengelolaan UKM Voli Telkom University, meliputi absensi anggota, pengelolaan keuangan, pendataan anggota, dan penyampaian informasi. Dikembangkan secara berkelompok dengan peran sebagai ketua tim dan fokus pada fitur inti terintegrasi Firebase.",
@@ -191,6 +195,7 @@ export const projects = [
   {
     id: "deep-blue-cleaner",
     title: "Deep Blue Cleaner",
+    type: "Game Development",
     images: [deepBlueCover, deepBlueCover1, deepBlueCover4, deepBlueCover2, deepBlueCover3],
     description:
       "Game desktop bergenre action dan edukasi di mana pemain membersihkan sampah di laut sambil menjaga ekosistem. Pemain mengumpulkan skor, menghindari rintangan, dan mengelola oksigen. Berperan sebagai lead dan programmer pada pengembangan player controller.",
@@ -202,6 +207,7 @@ export const projects = [
   {
     id: "galaxar",
     title: "GalaxAR",
+    type: "Augmented Reality Application",
     images: [galaxAr, galaxAr1, galaxAr2, galaxAr3],
     description:
       "Aplikasi Augmented Reality yang menampilkan planet 3D ketika kartu planet dipindai menggunakan kamera. Setiap objek dilengkapi suara dan informasi edukatif. Berperan dalam pengembangan UI dan fitur pada tampilan awal aplikasi.",
@@ -217,6 +223,7 @@ export const projects = [
   {
     id: "deteksi-nominal-uang",
     title: "Deteksi Uang Nominal",
+    type: "Machine Learning Project",
     images: [deteksi1, deteksi2],
     description:
       "Program berbasis Python untuk mengenali nominal uang dari gambar menggunakan ekstraksi fitur warna dan algoritma machine learning sederhana seperti Random Forest dan KNN. Berperan dalam pengolahan dataset, pelatihan model, dan pengujian prediksi.",
@@ -233,6 +240,7 @@ export const projects = [
   {
     id: "agexplore-planet",
     title: "AgeXplore Planet",
+    type: "Mobile Application",
     images: [ageXplore1, ageXplore3, ageXplore2, ageXplore4, ageXplore5],
     description: "Aplikasi Android mandiri untuk menghitung usia pengguna di planet lain serta mencatat misi eksplorasi antariksa. Mengintegrasikan RESTful API untuk menampilkan data alat eksplorasi lengkap dengan gambar dan deskripsi.",
     role: "Android Developer (Individual Project)",
@@ -249,6 +257,7 @@ export const projects = [
   {
     id: "air-care",
     title: "AirCare",
+    type: "Internet of Things System & Mobile Application",
     images: [AirCareCover, AirCare2, AirCare3, AirCare4, AirCare5, AirCare6],
     description: "Aplikasi pemantauan kualitas udara dan kondisi ruangan secara real-time menggunakan sensor lingkungan, mikrokontroler, dan aplikasi Android.",
     role: "IoT Integration & Android Application Developer",
