@@ -242,13 +242,13 @@ export const projects = [
     title: "AgeXplore Planet",
     type: "Mobile Application",
     images: [ageXplore1, ageXplore3, ageXplore2, ageXplore4, ageXplore5],
-    description: "Aplikasi Android mandiri untuk menghitung usia pengguna di planet lain serta mencatat misi eksplorasi antariksa. Mengintegrasikan RESTful API untuk menampilkan data alat eksplorasi lengkap dengan gambar dan deskripsi.",
+    description: "Aplikasi Android mandiri untuk menghitung usia pengguna di planet lain serta mencatat misi eksplorasi antariksa. Mengintegrasikan REST API untuk menampilkan data alat eksplorasi lengkap dengan gambar dan deskripsi.",
     role: "Android Developer (Individual Project)",
     responsibilities: [
       "Mengembangkan aplikasi Android secara mandiri",
       "Mengimplementasikan perhitungan usia pengguna di planet lain berdasarkan periode revolusi",
       "Membangun fitur pencatatan misi eksplorasi antariksa",
-      "Mengintegrasikan RESTful API untuk menampilkan data alat eksplorasi",
+      "Mengintegrasikan REST API untuk menampilkan data alat eksplorasi",
       "Menampilkan informasi alat eksplorasi berupa gambar, nama, dan fungsi",
     ],
     githubLink: "https://github.com/ZAYYAN2179/AgeXplore-Planet",
@@ -278,6 +278,6 @@ export const projects = [
         url: "https://github.com/ZAYYAN2179/AirCare-App",
       },
     ],
-    tech: ["ESP32", "MQ-135", "DHT11", "PIR Sensor", "Kotlin", "Android", "Firebase Realtime Database", "REST API"],
+    tech: ["ESP32", "MQ-135", "DHT11", "PIR Sensor", "Kotlin", "Android", "Firebase Realtime Database"],
   },
 ];
