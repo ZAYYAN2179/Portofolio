@@ -27,7 +27,7 @@ const Contact = () => {
             <FaWhatsapp /> WhatsApp
           </a>
 
-          <a href="https://www.linkedin.com/in/USERNAME-KAMU" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg hover:bg-blue-600 transition">
+          <a href="https://www.linkedin.com/in/muh-zayyan" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg hover:bg-blue-600 transition">
             <FaLinkedin /> LinkedIn
           </a>
         </div>
