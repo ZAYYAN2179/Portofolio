@@ -154,7 +154,7 @@ export const projects = [
       "Meningkatkan struktur aplikasi dan arsitektur backend dibanding versi PHP sebelumnya",
     ],
     githubLink: "https://github.com/ZAYYAN2179/FoodExplore-Laravel",
-    tech: ["Laravel", "PHP", "MySQL", "REST API", "Map API"],
+    tech: ["Laravel", "PHP", "MySQL", "Map API"],
   },
   {
     id: "futsal-booker",
