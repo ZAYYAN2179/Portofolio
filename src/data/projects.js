@@ -144,7 +144,7 @@ export const projects = [
       foodExploreDatabase,
     ],
     description:
-      "Pengembangan lanjutan Food Explore berbasis Laravel dengan fitur role admin, pemilik warung, dan pengguna. Mendukung integrasi Map API, pengelolaan menu mandiri, serta pemesanan langsung yang terhubung ke WhatsApp. Berperan sebagai ketua tim dan mengembangkan fitur autentikasi serta role & permission.",
+      "Pengembangan lanjutan Food Explore berbasis Laravel dengan fitur role admin, pemilik warung, dan pengguna. Mendukung integrasi Map API, pengelolaan menu mandiri, serta pemesanan langsung yang terhubung ke WhatsApp.",
     role: "Ketua Tim & Backend Developer",
     responsibilities: [
       "Mengembangkan sistem autentikasi pengguna (login & register) menggunakan Laravel Breeze",
@@ -154,7 +154,7 @@ export const projects = [
       "Meningkatkan struktur aplikasi dan arsitektur backend dibanding versi PHP sebelumnya",
     ],
     githubLink: "https://github.com/ZAYYAN2179/FoodExplore-Laravel",
-    tech: ["Laravel", "PHP", "MySQL", "Map API"],
+    tech: ["Laravel", "PHP", "MySQL", "Map API", "Bootstrap" ],
   },
   {
     id: "futsal-booker",
@@ -226,8 +226,8 @@ export const projects = [
     type: "Machine Learning Project",
     images: [deteksi1, deteksi2],
     description:
-      "Program berbasis Python untuk mengenali nominal uang dari gambar menggunakan ekstraksi fitur warna dan algoritma machine learning sederhana seperti Random Forest dan KNN. Berperan dalam pengolahan dataset, pelatihan model, dan pengujian prediksi.",
-    role: "Ketua Tim",
+      "Program berbasis Python untuk mengenali nominal uang dari gambar menggunakan ekstraksi fitur warna dan algoritma machine learning sederhana dengan menggunakan Random Forest dan KNN.",
+    role: "Ketua Kelompok",
     responsibilities: [
       "Mengumpulkan dan menyiapkan dataset gambar uang",
       "Mengimplementasikan proses ekstraksi fitur warna dari gambar",

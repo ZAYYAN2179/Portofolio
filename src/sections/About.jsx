@@ -5,7 +5,7 @@ const About = () => {
         <h2 className="text-3xl font-bold mb-6 text-blue-500">About Me</h2>
 
         <p className="text-gray-300 leading-relaxed text-justify">
-          Saya adalah Mahasiswa D3 Rekayasa Perangkat Lunak Aplikasi Telkom University dengan minat kuat pada backend development, berpengalaman dalam pengembangan logika aplikasi, integrasi database, dan API. Berkomitmen untuk menerapkan
+          Saya adalah Mahasiswa D3 Rekayasa Perangkat Lunak Aplikasi Telkom University dengan minat pada backend development, berpengalaman dalam pengembangan logika aplikasi, integrasi database, dan API. Berkomitmen untuk menerapkan
           keterampilan teknis dalam lingkungan profesional serta terus belajar dan berkembang.
         </p>
 
