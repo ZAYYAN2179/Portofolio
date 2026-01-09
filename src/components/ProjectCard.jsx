@@ -36,7 +36,7 @@ const ProjectCard = ({ project }) => {
             leading-relaxed
           "
         >
-          {project.description}
+          {project.descriptionCard}
         </p>
 
         {/* Tech Stack */}

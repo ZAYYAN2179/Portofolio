@@ -124,6 +124,7 @@ export const projects = [
       foodExplorePhpProfil,
       foodExplorePhpDatabase,
     ],
+    descriptionCard: "Website pencarian makanan dengan layanan pengantaran khusus mahasiswa asrama Telkom University. Menyediakan fitur pencarian makanan, sistem rating, dan informasi warung.",
     description: "Website pencarian makanan dengan layanan pengantaran khusus mahasiswa asrama Telkom University. Menyediakan fitur pencarian makanan, sistem rating, dan informasi warung.",
     role: "Ketua Tim & Backend Developer",
     responsibilities: [
@@ -157,6 +158,7 @@ export const projects = [
       foodExploreProfil,
       foodExploreDatabase,
     ],
+    descriptionCard: "Pengembangan aplikasi Food Explore berbasis Laravel dengan fitur multi-role, integrasi Map API, pengelolaan menu mandiri, dan pemesanan via WhatsApp.",
     description: "Pengembangan lanjutan Food Explore berbasis Laravel dengan fitur role admin, pemilik warung, dan pengguna. Mendukung integrasi Map API, pengelolaan menu mandiri, serta pemesanan langsung yang terhubung ke WhatsApp.",
     role: "Ketua Tim & Backend Developer",
     responsibilities: [
@@ -174,6 +176,7 @@ export const projects = [
     title: "Futsal Booker",
     type: "Desktop Application",
     images: [futsalBookerCover, futsalBookerLogin, futsalBookerRegister, futsalBooker1, futsalBooker2, futsalBooker3, futsalBooker4, futsalBooker5, futsalBooker6, futsalBooker7, futsalBookerDatabase],
+    descriptionCard: "Aplikasi desktop Java untuk sistem booking lapangan futsal dengan fitur booking, pembayaran DP, invoice, serta pengelolaan dan konfirmasi jadwal oleh admin.",
     description:
       "Aplikasi desktop berbasis Java untuk sistem booking lapangan futsal. Menyediakan fitur booking, pembayaran DP, invoice, serta pengelolaan jadwal dan konfirmasi booking oleh admin. Berperan dalam implementasi fungsionalitas utama aplikasi.",
     role: "Application Logic Developer (Java Desktop)",
@@ -193,6 +196,7 @@ export const projects = [
     title: "TVBC App",
     type: "Mobile Application",
     images: [tvbcCover, tvbc2, tvbc3, tvbc4, tvbc5, tvbc6, tvbc7, tvbc8, tvbc9, tvbc10, tvbc11, tvbc12, tvbc13, tvbc14, tvbc15, tvbc16, tvbc17, tvbc18, tvbc19],
+    descriptionCard: "Aplikasi Android untuk pengelolaan UKM Voli Telkom University dengan fitur absensi, keuangan, pendataan anggota, dan informasi, terintegrasi Firebase.",
     description:
       "Aplikasi Android untuk mendukung pengelolaan UKM Voli Telkom University, meliputi absensi anggota, pengelolaan keuangan, pendataan anggota, dan penyampaian informasi. Dikembangkan secara berkelompok dengan peran sebagai ketua tim dan fokus pada fitur inti terintegrasi Firebase.",
     role: "Ketua Tim & Backend Developer",
@@ -210,6 +214,7 @@ export const projects = [
     title: "Deep Blue Cleaner",
     type: "Game Development",
     images: [deepBlueCover, deepBlueCover1, deepBlueCover4, deepBlueCover2, deepBlueCover3],
+    descriptionCard: "Game desktop action-edukasi bertema pelestarian laut dengan mekanik pembersihan sampah, skor, rintangan, dan manajemen oksigen.",
     description:
       "Game desktop bergenre action dan edukasi di mana pemain membersihkan sampah di laut sambil menjaga ekosistem. Pemain mengumpulkan skor, menghindari rintangan, dan mengelola oksigen. Berperan sebagai lead dan programmer pada pengembangan player controller.",
     role: "Lead & Programmer",
@@ -222,6 +227,7 @@ export const projects = [
     title: "GalaxAR",
     type: "Augmented Reality Application",
     images: [galaxAr, galaxAr1, galaxAr2, galaxAr3],
+    descriptionCard: "Aplikasi Augmented Reality yang menampilkan planet 3D dengan informasi dan audio edukatif melalui pemindaian kartu.",
     description:
       "Aplikasi Augmented Reality yang menampilkan planet 3D ketika kartu planet dipindai menggunakan kamera. Setiap objek dilengkapi suara dan informasi edukatif. Berperan dalam pengembangan UI dan fitur pada tampilan awal aplikasi.",
     role: "AR Developer & Fitur Developer",
@@ -238,6 +244,7 @@ export const projects = [
     title: "Deteksi Uang Nominal",
     type: "Machine Learning Project",
     images: [deteksi1, deteksi2],
+    descriptionCard: "Program berbasis Python untuk mengenali nominal uang dari gambar menggunakan ekstraksi fitur warna dan algoritma machine learning sederhana dengan menggunakan Random Forest dan KNN.",
     description: "Program berbasis Python untuk mengenali nominal uang dari gambar menggunakan ekstraksi fitur warna dan algoritma machine learning sederhana dengan menggunakan Random Forest dan KNN.",
     role: "Ketua Kelompok",
     responsibilities: [
@@ -254,6 +261,7 @@ export const projects = [
     title: "AgeXplore Planet",
     type: "Mobile Application",
     images: [ageXplore1, ageXplore3, ageXplore2, ageXplore4, ageXplore5],
+    descriptionCard: "Aplikasi Android untuk menghitung usia di planet lain dan mencatat misi eksplorasi, terintegrasi REST API.",
     description: "Aplikasi Android mandiri untuk menghitung usia pengguna di planet lain serta mencatat misi eksplorasi antariksa. Mengintegrasikan REST API untuk menampilkan data alat eksplorasi lengkap dengan gambar dan deskripsi.",
     role: "Android Developer (Individual Project)",
     responsibilities: [
@@ -271,6 +279,7 @@ export const projects = [
     title: "Planet API (Laravel)",
     type: "Backend API",
     images: [PlanetAPI1, PlanetAPI2],
+    descriptionCard: "Planet API adalah REST API berbasis Laravel untuk pengelolaan data planet pengguna berbasis email dengan fitur CRUD, upload gambar, dan autentikasi sederhana.",
     description:
       "Planet API adalah REST API berbasis Laravel yang digunakan untuk mengelola data planet milik pengguna secara terpisah berdasarkan email. API ini menyediakan fitur CRUD (Create, Read, Update, Delete) data planet, termasuk upload dan pengelolaan gambar, dengan autentikasi sederhana menggunakan header Authorization. API ini dirancang untuk diintegrasikan dengan aplikasi Android pada tugas besar mata kuliah Mobile Programming 1.",
     role: "Backend Developer (Individual Project)",
@@ -290,6 +299,7 @@ export const projects = [
     title: "AirCare",
     type: "Internet of Things System & Mobile Application",
     images: [AirCareCover, AirCare2, AirCare3, AirCare4, AirCare5, AirCare6],
+    descriptionCard: "Aplikasi pemantauan kualitas udara dan kondisi ruangan secara real-time menggunakan sensor lingkungan, mikrokontroler, dan aplikasi Android.",
     description: "Aplikasi pemantauan kualitas udara dan kondisi ruangan secara real-time menggunakan sensor lingkungan, mikrokontroler, dan aplikasi Android.",
     role: "IoT Integration & Android Application Developer",
     responsibilities: [
@@ -316,6 +326,7 @@ export const projects = [
     title: "Lost & Found App",
     type: "Mobile Application",
     images: [LostFound1, LostFound2, LostFound3, LostFound4, LostFound5, LostFound6, LostFound7, LostFound8],
+    descriptionCard: "Aplikasi Android untuk pelaporan dan pencarian barang hilang di lingkungan kampus dengan foto, peta lokasi, dan pencarian cepat.",
     description: "Lost & Found adalah aplikasi Android bagi civitas kampus untuk melaporkan dan menemukan barang hilang secara efisien melalui fitur unggahan foto, integrasi peta lokasi, serta sistem pencarian yang cepat.",
     role: "Ketua Tim & Mobile Application Developer",
     responsibilities: [
@@ -333,6 +344,7 @@ export const projects = [
     title: "Donation API (Laravel)",
     type: "Backend API",
     images: [],
+    descriptionCard: "API backend Laravel untuk integrasi aplikasi Lost & Found dengan Midtrans (sandbox) dalam pembuatan transaksi donasi.",
     description:
       "API backend sederhana berbasis Laravel yang digunakan untuk menghubungkan aplikasi Lost & Found dengan payment gateway Midtrans dalam mode sandbox. API ini berfungsi untuk membuat transaksi donasi dan menghasilkan redirect URL Midtrans Snap yang digunakan oleh aplikasi mobile.",
     role: "Backend Developer",
