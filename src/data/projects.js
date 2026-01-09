@@ -93,6 +93,20 @@ import AirCare4 from "../assets/images/AirCare/4.jpeg";
 import AirCare5 from "../assets/images/AirCare/5.jpeg";
 import AirCare6 from "../assets/images/AirCare/image.png";
 
+// Planet API
+import PlanetAPI1 from "../assets/images/PlanetAPI/planetapi1.png";
+import PlanetAPI2 from "../assets/images/PlanetAPI/planetapi2.png";
+
+// Lost & Found App
+import LostFound1 from "../assets/images/LostFound/login.jpeg";
+import LostFound2 from "../assets/images/LostFound/register.jpeg";
+import LostFound3 from "../assets/images/LostFound/home.jpeg";
+import LostFound4 from "../assets/images/LostFound/upload.jpeg";
+import LostFound5 from "../assets/images/LostFound/myitems.jpeg";
+import LostFound6 from "../assets/images/LostFound/itemdetail.jpeg";
+import LostFound7 from "../assets/images/LostFound/profile.jpeg";
+import LostFound8 from "../assets/images/LostFound/admin.jpeg";
+
 export const projects = [
   {
     id: "food-explore-php",
@@ -143,8 +157,7 @@ export const projects = [
       foodExploreProfil,
       foodExploreDatabase,
     ],
-    description:
-      "Pengembangan lanjutan Food Explore berbasis Laravel dengan fitur role admin, pemilik warung, dan pengguna. Mendukung integrasi Map API, pengelolaan menu mandiri, serta pemesanan langsung yang terhubung ke WhatsApp.",
+    description: "Pengembangan lanjutan Food Explore berbasis Laravel dengan fitur role admin, pemilik warung, dan pengguna. Mendukung integrasi Map API, pengelolaan menu mandiri, serta pemesanan langsung yang terhubung ke WhatsApp.",
     role: "Ketua Tim & Backend Developer",
     responsibilities: [
       "Mengembangkan sistem autentikasi pengguna (login & register) menggunakan Laravel Breeze",
@@ -154,7 +167,7 @@ export const projects = [
       "Meningkatkan struktur aplikasi dan arsitektur backend dibanding versi PHP sebelumnya",
     ],
     githubLink: "https://github.com/ZAYYAN2179/FoodExplore-Laravel",
-    tech: ["Laravel", "PHP", "MySQL", "Map API", "Bootstrap" ],
+    tech: ["Laravel", "PHP", "MySQL", "Map API", "Bootstrap"],
   },
   {
     id: "futsal-booker",
@@ -225,8 +238,7 @@ export const projects = [
     title: "Deteksi Uang Nominal",
     type: "Machine Learning Project",
     images: [deteksi1, deteksi2],
-    description:
-      "Program berbasis Python untuk mengenali nominal uang dari gambar menggunakan ekstraksi fitur warna dan algoritma machine learning sederhana dengan menggunakan Random Forest dan KNN.",
+    description: "Program berbasis Python untuk mengenali nominal uang dari gambar menggunakan ekstraksi fitur warna dan algoritma machine learning sederhana dengan menggunakan Random Forest dan KNN.",
     role: "Ketua Kelompok",
     responsibilities: [
       "Mengumpulkan dan menyiapkan dataset gambar uang",
@@ -252,7 +264,26 @@ export const projects = [
       "Menampilkan informasi alat eksplorasi berupa gambar, nama, dan fungsi",
     ],
     githubLink: "https://github.com/ZAYYAN2179/AgeXplore-Planet",
-    tech: ["Kotlin", "Android", "REST API"],
+    tech: ["Kotlin", "Android", "Firebase", "REST API"],
+  },
+  {
+    id: "planet-api",
+    title: "Planet API (Laravel)",
+    type: "Backend API",
+    images: [PlanetAPI1, PlanetAPI2],
+    description:
+      "Planet API adalah REST API berbasis Laravel yang digunakan untuk mengelola data planet milik pengguna secara terpisah berdasarkan email. API ini menyediakan fitur CRUD (Create, Read, Update, Delete) data planet, termasuk upload dan pengelolaan gambar, dengan autentikasi sederhana menggunakan header Authorization. API ini dirancang untuk diintegrasikan dengan aplikasi Android pada tugas besar mata kuliah Mobile Programming 1.",
+    role: "Backend Developer (Individual Project)",
+    responsibilities: [
+      "Merancang dan mengembangkan REST API menggunakan Laravel",
+      "Mengimplementasikan CRUD data planet (create, read, update, delete)",
+      "Mengelola relasi data planet dengan pengguna berbasis email",
+      "Mengimplementasikan upload dan manajemen gambar planet",
+      "Menerapkan autentikasi sederhana menggunakan header Authorization",
+      "Melakukan pengujian endpoint API menggunakan Postman",
+    ],
+    githubLink: "https://github.com/ZAYYAN2179/planet-api",
+    tech: ["Laravel", "REST API", "Postman"],
   },
   {
     id: "air-care",
@@ -279,5 +310,38 @@ export const projects = [
       },
     ],
     tech: ["ESP32", "MQ-135", "DHT11", "PIR Sensor", "Kotlin", "Android", "Firebase Realtime Database"],
+  },
+  {
+    id: "lost-and-found",
+    title: "Lost & Found App",
+    type: "Mobile Application",
+    images: [LostFound1, LostFound2, LostFound3, LostFound4, LostFound5, LostFound6, LostFound7, LostFound8],
+    description: "Lost & Found adalah aplikasi Android bagi civitas kampus untuk melaporkan dan menemukan barang hilang secara efisien melalui fitur unggahan foto, integrasi peta lokasi, serta sistem pencarian yang cepat.",
+    role: "Ketua Tim & Mobile Application Developer",
+    responsibilities: [
+      "Memimpin dan mengoordinasikan tim dalam perencanaan dan pengembangan aplikasi Lost & Found",
+      "Mengembangkan fitur autentikasi pengguna (Register, Login, Verifikasi Akun, Forgot Password)",
+      "Membangun antarmuka aplikasi dengan Two Pane Layout untuk meningkatkan pengalaman pengguna",
+      "Mengintegrasikan Firebase sebagai backend (Authentication & Database)",
+      "Melakukan pengujian aplikasi (UI Testing dan Unit Testing)",
+    ],
+    githubLink: "https://github.com/ZAYYAN2179/LostAndFoundApp",
+    tech: ["Kotlin", "Android", "Firebase", "REST API"],
+  },
+  {
+    id: "lost-and-found-donation-api",
+    title: "Donation API (Laravel)",
+    type: "Backend API",
+    images: [],
+    description:
+      "API backend sederhana berbasis Laravel yang digunakan untuk menghubungkan aplikasi Lost & Found dengan payment gateway Midtrans dalam mode sandbox. API ini berfungsi untuk membuat transaksi donasi dan menghasilkan redirect URL Midtrans Snap yang digunakan oleh aplikasi mobile.",
+    role: "Backend Developer",
+    responsibilities: [
+      "Mengembangkan API sederhana untuk pembuatan transaksi donasi",
+      "Mengintegrasikan Midtrans Snap API dalam mode sandbox",
+      "Menghubungkan API pembayaran dengan aplikasi Lost & Found",
+    ],
+    githubLink: "https://github.com/ZAYYAN2179/donasi-api",
+    tech: ["PHP", "Laravel", "Midtrans Snap (Sandbox)"],
   },
 ];
