@@ -16,6 +16,8 @@ const Navbar = () => {
         <li><a href="#home" className="hover:text-blue-400">Home</a></li>
         <li><a href="#about" className="hover:text-blue-400">About</a></li>
         <li><a href="#projects" className="hover:text-blue-400">Projects</a></li>
+        <li><a href="#experience" className="hover:text-blue-400">Experience</a></li>
+        <li><a href="#certificates" className="hover:text-blue-400">Certificates</a></li>
         <li><a href="#contact" className="hover:text-blue-400">Contact</a></li>
       </ul>
 
@@ -34,6 +36,8 @@ const Navbar = () => {
             <li><a onClick={() => setOpen(false)} href="#home">Home</a></li>
             <li><a onClick={() => setOpen(false)} href="#about">About</a></li>
             <li><a onClick={() => setOpen(false)} href="#projects">Projects</a></li>
+            <li><a onClick={() => setOpen(false)} href="#experience">Experience</a></li>
+            <li><a onClick={() => setOpen(false)} href="#certificates">Certificates</a></li>
             <li><a onClick={() => setOpen(false)} href="#contact">Contact</a></li>
           </ul>
         </div>
