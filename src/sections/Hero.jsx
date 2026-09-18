@@ -18,7 +18,7 @@ const Hero = () => {
 
           {/* Deskripsi */}
           <p className="mt-4 text-gray-400 leading-relaxed text-sm md:text-base max-w-lg mx-auto md:mx-0 fade-up fade-delay-3">
-            Mahasiswa D3 Rekayasa Perangkat Lunak Aplikasi Telkom University dengan minat pada <span className="text-white">Backend Development</span>, berpengalaman dalam pengembangan logika aplikasi, integrasi database, dan API.
+            Lulusan D3 Rekayasa Perangkat Lunak Aplikasi Telkom University dengan minat pada <span className="text-white">Backend Development</span>, berpengalaman dalam pengembangan logika aplikasi, integrasi database, dan API.
           </p>
 
           {/* Button */}

@@ -5,9 +5,9 @@ const Experience = () => {
   return (
     <section id="experience" className="py-20 px-6 bg-gray-900">
       <div className="max-w-4xl mx-auto text-center mb-12">
-        <h2 className="text-3xl font-bold text-blue-500">Pengalaman Organisasi</h2>
+        <h2 className="text-3xl font-bold text-blue-500">Pengalaman</h2>
         <p className="mt-3 text-gray-400 text-sm md:text-base max-w-2xl mx-auto">
-          Pengalaman kepemimpinan dan kolaborasi dalam organisasi kemahasiswaan.
+        Berbagai pengalaman organisasi, magang, proyek, dan kegiatan akademik.
         </p>
       </div>
 

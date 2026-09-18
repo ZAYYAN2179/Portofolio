@@ -5,14 +5,14 @@ export const organizations = [
     role: "Backend Developer Intern",
     period: "18 Februari 2026 – 20 Juni 2026",
     description:
-      "Berperan sebagai Backend Developer dalam pengembangan sistem backend serta mendukung pengembangan project IoT RFID untuk kebutuhan monitoring dan komunikasi data perangkat.",
+      "Berperan sebagai Backend Developer dalam pengembangan sistem backend untuk website Family Link serta mendukung pengembangan project IoT RFID untuk kebutuhan monitoring dan komunikasi data perangkat.",
     highlights: [
-      "Mengembangkan dan mengelola backend system untuk mendukung kebutuhan produk HolyGo",
+      "Mengembangkan dan mengelola backend system website Family Link",
       "Berperan sebagai backend/support programmer pada project IoT RFID",
       "Mendukung pengujian perangkat IoT dan komunikasi data antara perangkat dengan sistem",
       "Membantu proses pemasangan dan pengujian alat IoT di lapangan",
       "Melakukan testing dan debugging untuk memastikan integrasi perangkat dengan sistem berjalan dengan baik",
-      "Mengembangkan REST API menggunakan NestJS dan TypeScript pada Website Family Link",
+      "Mengembangkan REST API sederhana menggunakan NestJS dan TypeScript pada Website Family Link",
     ],
   },
   {
@@ -26,7 +26,6 @@ export const organizations = [
       "Membimbing mahasiswa dalam praktikum Sistem Basis Data I",
       "Membantu mahasiswa memahami konsep SQL dan pengelolaan basis data",
       "Mendampingi proses pengerjaan dan penyelesaian tugas praktikum",
-      "Membantu mengevaluasi hasil praktikum dan memberikan arahan kepada mahasiswa"
     ],
   },
   {
