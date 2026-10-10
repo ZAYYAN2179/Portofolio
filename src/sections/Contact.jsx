@@ -23,10 +23,6 @@ const Contact = () => {
             <FaEnvelope /> Email
           </a>
 
-          <a href="https://wa.me/6281247899439" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg hover:bg-blue-600 transition">
-            <FaWhatsapp /> WhatsApp
-          </a>
-
           <a href="https://www.linkedin.com/in/muh-zayyan" target="_blank" rel="noreferrer" className="flex items-center gap-2 px-6 py-3 bg-gray-800 rounded-lg hover:bg-blue-600 transition">
             <FaLinkedin /> LinkedIn
           </a>

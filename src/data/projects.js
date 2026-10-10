@@ -107,7 +107,66 @@ import LostFound6 from "../assets/images/LostFound/itemdetail.jpeg";
 import LostFound7 from "../assets/images/LostFound/profile.jpeg";
 import LostFound8 from "../assets/images/LostFound/admin.jpeg";
 
+// Dorm Food
+import DormFood1 from "../assets/images/DormFood/landingpage.png";
+import DormFood2 from "../assets/images/DormFood/login.png";
+import DormFood3 from "../assets/images/DormFood/register.png";
+import DormFood4 from "../assets/images/DormFood/berandaMahasiswa.png";
+import DormFood5 from "../assets/images/DormFood/menumahasiswa.png";
+import DormFood6 from "../assets/images/DormFood/pembayaranmahasiswa.png";
+import DormFood7 from "../assets/images/DormFood/pesananmahasiswa.png";
+import DormFood8 from "../assets/images/DormFood/berandawarung.png";
+import DormFood9 from "../assets/images/DormFood/nilaiulasanmahasiswa.png";
+import DormFood10 from "../assets/images/DormFood/berandawarung.png";
+import DormFood11 from "../assets/images/DormFood/daftarulasan.png";
+import DormFood12 from "../assets/images/DormFood/menuwarung.png";
+import DormFood13 from "../assets/images/DormFood/pesananwarung.png";
+import DormFood14 from "../assets/images/DormFood/prediksistokwarung.png";
+import DormFood15 from "../assets/images/DormFood/prediksistokwarung2.png";
+import DormFood16 from "../assets/images/DormFood/profilwarung.png";
+import DormFood17 from "../assets/images/DormFood/titiklokasi.png";
+import DormFood18 from "../assets/images/DormFood/titiklokasiwarung.png";
+
+
 export const projects = [
+  {
+    id: "dorm-food",
+    title: "Tugas Akhir - Dorm Food",
+    type: "Android Application",
+    images: [
+      DormFood1,
+      DormFood2,
+      DormFood3,
+      DormFood4,
+      DormFood5,
+      DormFood6,
+      DormFood7,
+      DormFood8,
+      DormFood9,
+      DormFood10,
+      DormFood11,
+      DormFood12,
+      DormFood13,
+      DormFood14,
+      DormFood15,
+      DormFood16,
+      DormFood17,
+      DormFood18,
+    ],
+    descriptionCard: "Aplikasi Pemesanan dan Promosi Warung Lokal bagi Mahasiswa Asrama Telkom University.",
+    description: "Aplikasi Android yang menghubungkan mahasiswa asrama Telkom University dengan warung lokal untuk mencari menu, melakukan pemesanan, dan memberikan ulasan.",
+    role: "Tugas Akhir (Final Project) & Android Developer",
+    responsibilities: [
+      "Mengembangkan aplikasi Android menggunakan Kotlin dan Jetpack Compose",
+      "Mengimplementasikan autentikasi dan pengelolaan data menggunakan Firebase",
+      "Mengembangkan fitur katalog menu, pemesanan, pembayaran QR, upload bukti pembayaran, dan monitoring status pesanan",
+      "Mengintegrasikan Cloudinary untuk pengelolaan gambar dan bukti pembayaran",
+      "Mengembangkan fitur prediksi stok menu berbasis Machine Learning menggunakan Flask",
+      "Mengimplementasikan fitur rating, ulasan"
+    ],
+    githubLink: "https://github.com/ZAYYAN2179/DormFood",
+    tech: ["Kotlin", "Jetpack Compose", "Firebase", "Cloud Firestore", "Cloudinary", "Flask", "Machine Learning"],
+  },
   {
     id: "food-explore-php",
     title: "Food Explore (PHP)",

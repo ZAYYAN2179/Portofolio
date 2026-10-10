@@ -26,6 +26,12 @@ const ProjectDetail = () => {
           <span className="text-sm font-medium">Kembali</span>
         </button>
 
+        {project.featured && (
+          <span className="inline-block mb-4 text-xs font-semibold uppercase tracking-wide px-3 py-1 rounded-full bg-blue-500/20 text-blue-400 border border-blue-500/30">
+            {project.featuredLabel || "Featured Project"}
+          </span>
+        )}
+
         {/* Title */}
         <h1 className="text-2xl md:text-4xl font-bold mb-4">{project.title}</h1>
 

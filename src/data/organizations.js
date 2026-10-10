@@ -18,7 +18,7 @@ export const organizations = [
   {
     id: "database-assistant",
     organization: "Program Studi D3 Rekayasa Perangkat Lunak Aplikasi Telkom University",
-    role: "Asisten Praktikum Sistem Basis Data I",
+    role: "Asisten Praktikum Sistem Mata Kuliah SistemBasis Data I",
     period: "Februari 2025 - Juni 2025",
     description:
       "Mendampingi mahasiswa dalam memahami konsep dan penerapan sistem basis data melalui kegiatan praktikum.",
@@ -31,7 +31,7 @@ export const organizations = [
   {
     id: "hima-rpl",
     organization: "Himpunan Mahasiswa D3 Rekayasa Perangkat Lunak Aplikasi Telkom University",
-    role: "Kepala Biro Manajerial",
+    role: "Kepala Biro Manajerial Organisasi Kabinet Kontribusi Aksi",
     period: "Februari 2025 - Desember 2025",
     description:
       "Berperan dalam pengelolaan internal organisasi, administrasi keanggotaan, serta koordinasi dan evaluasi kegiatan himpunan.",
