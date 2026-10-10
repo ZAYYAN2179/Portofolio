@@ -111,7 +111,7 @@ import LostFound8 from "../assets/images/LostFound/admin.jpeg";
 import DormFood1 from "../assets/images/DormFood/landingpage.png";
 import DormFood2 from "../assets/images/DormFood/login.png";
 import DormFood3 from "../assets/images/DormFood/register.png";
-import DormFood4 from "../assets/images/DormFood/berandaMahasiswa.png";
+import DormFood4 from "../assets/images/DormFood/berandamahasiswa.png";
 import DormFood5 from "../assets/images/DormFood/menumahasiswa.png";
 import DormFood6 from "../assets/images/DormFood/pembayaranmahasiswa.png";
 import DormFood7 from "../assets/images/DormFood/pesananmahasiswa.png";
