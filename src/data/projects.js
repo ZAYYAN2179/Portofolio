@@ -415,4 +415,20 @@ export const projects = [
     githubLink: "https://github.com/ZAYYAN2179/donasi-api",
     tech: ["PHP", "Laravel", "Midtrans Snap (Sandbox)"],
   },
+  {
+    id: "dormfood-ml-api",
+    title: "DormFood Machine Learning API",
+    type: "Machine Learning API",
+    images: [],
+    descriptionCard: "API machine learning untuk mendukung fitur rekomendasi atau prediksi pada aplikasi pemesanan makanan DormFood.",
+    description:
+      "API backend berbasis machine learning yang dikembangkan untuk mengintegrasikan model prediktif atau sistem rekomendasi ke dalam ekosistem aplikasi DormFood. API ini bertugas memproses data dari aplikasi mobile dan mengembalikan hasil prediksi stok menu untuk kebutuhan pemilik warung lokal.",
+    role: "Machine Learning / Backend Developer",
+    responsibilities: [
+      "Mengembangkan dan menerapkan model machine learning untuk sistem prediksi/rekomendasi",
+      "Membangun API endpoint untuk menghubungkan model ML dengan aplikasi utama",
+    ],
+    githubLink: "https://github.com/ZAYYAN2179/dormfood-ml-api",
+    tech: ["Python", "FastAPI / Flask", "Machine Learning", "RESTful API"],
+  },
 ];
