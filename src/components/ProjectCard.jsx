@@ -1,9 +1,18 @@
 import { Link } from "react-router-dom";
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, featured = false }) => {
   return (
     <Link to={`/projects/${project.id}`}>
-      <div className="bg-gray-900 rounded-xl p-5 md:p-6 hover:scale-[1.03] transition cursor-pointer h-full flex flex-col relative">
+      <div
+        className={`rounded-xl p-5 md:p-6 hover:scale-[1.03] transition cursor-pointer h-full flex flex-col relative ${
+          featured ? "bg-gray-900 ring-2 ring-blue-500/40 border border-blue-500/30" : "bg-gray-900"
+        }`}
+      >
+        {featured && project.featuredLabel && (
+          <span className="absolute top-4 left-4 text-[10px] md:text-xs px-2.5 py-1 rounded-full bg-blue-500 text-white font-medium">
+            {project.featuredLabel}
+          </span>
+        )}
 
         {/* Project Type Badge */}
         {project.type && (
@@ -14,14 +23,15 @@ const ProjectCard = ({ project }) => {
 
         {/* Title */}
         <h3
-          className="
+          className={`
             text-lg md:text-xl 
             font-semibold 
             mb-2 
             text-white
             line-clamp-2
             leading-snug
-          "
+            ${featured ? "pt-7" : ""}
+          `}
         >
           {project.title}
         </h3>

@@ -131,8 +131,10 @@ import DormFood18 from "../assets/images/DormFood/titiklokasiwarung.png";
 export const projects = [
   {
     id: "dorm-food",
-    title: "Tugas Akhir - Dorm Food",
+    title: "Dorm Food",
     type: "Android Application",
+    featured: true,
+    featuredLabel: "Tugas Akhir D3",  
     images: [
       DormFood1,
       DormFood2,
